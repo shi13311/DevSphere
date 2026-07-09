@@ -1,0 +1,315 @@
+@media (max-width:767px){
+
+*{
+    overflow-x: hidden;
+}
+
+body{
+    width:100%;
+}
+
+/* Navbar */
+
+.nav{
+    padding:20px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo h1{
+    font-size:2rem;
+}
+
+.nav-links,
+.btn{
+    display:none;
+}
+
+#menu{
+    display:block;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+/* Hero Section */
+
+.main1{
+    grid-template-columns:1fr;
+    padding:30px 20px;
+    margin-top:30px;
+    gap:40px;
+}
+
+.left{
+    text-align:center;
+    align-items:center;
+}
+
+.Software-btn{
+    width:80%;
+    font-size:1rem;
+}
+
+.left h1{
+    font-size:2.3rem;
+    line-height:1.3;
+}
+
+.left p{
+    font-size:1.1rem;
+}
+
+.hero-btn{
+    width:100%;
+    flex-direction:column;
+    gap:15px;
+}
+
+.start-btn,
+.service-btn{
+    width:100%;
+    font-size:1rem;
+}
+
+.right{
+    padding:0;
+}
+
+.hero-section{
+    width:100%;
+}
+
+.side-bar{
+    width:22%;
+    gap:25px;
+    padding:15px;
+}
+
+.icon{
+    font-size:1.2rem;
+}
+
+.hero-main-box{
+    padding:20px;
+}
+
+/* Companies */
+
+.main2{
+    flex-wrap:wrap;
+    gap:30px;
+    padding:25px;
+}
+
+.main2 i{
+    font-size:2.5rem;
+}
+
+/* Sections */
+
+.main3,
+.main4,
+.main5{
+    padding:50px 20px;
+}
+
+.main3 h1,
+.main41 h1,
+.main51 h1{
+    font-size:2rem;
+    text-align:center;
+}
+
+/* Cards */
+
+.card{
+    grid-template-columns:1fr;
+}
+
+.item,
+.item1{
+    padding:30px;
+}
+
+.code{
+    width:70px;
+    height:70px;
+}
+
+.code i{
+    font-size:2rem;
+}
+
+.item h2{
+    font-size:1.6rem;
+}
+
+.item p{
+    font-size:1rem;
+}
+
+.basic{
+    font-size:1.5rem;
+}
+
+.item1 h2{
+    font-size:3rem;
+}
+
+.basic1{
+    font-size:1rem;
+}
+
+.card-btn{
+    width:100%;
+    font-size:1rem;
+}
+
+/* Testimonials */
+
+.feedback{
+    grid-template-columns:1fr;
+}
+
+.feed{
+    padding:25px;
+}
+
+.feed p{
+    font-size:1rem;
+}
+
+.feed h2{
+    font-size:1.4rem;
+}
+
+/* CTA */
+
+.main51{
+    padding:35px 20px;
+    text-align:center;
+}
+
+.main51 p{
+    margin:0;
+    font-size:1.1rem;
+}
+
+.main51 button{
+    width:100%;
+    margin:0;
+    font-size:1rem;
+}
+
+/* Footer */
+
+.foot{
+    grid-template-columns:1fr;
+    gap:35px;
+    text-align:center;
+}
+
+.foot-logo{
+    justify-content:center;
+    gap:20px;
+}
+
+.foot-logo i{
+    font-size:2rem;
+}
+}
+
+
+/* ==========================
+   Tablet (768px - 1024px)
+========================== */
+
+@media (min-width:768px) and (max-width:1024px){
+
+.nav{
+    padding:25px;
+}
+
+.nav-links{
+    gap:20px;
+}
+
+.nav-links a{
+    font-size:1rem;
+}
+
+.btn button{
+    width:160px;
+}
+
+.main1{
+    grid-template-columns:1fr;
+    padding:50px;
+    gap:40px;
+}
+
+.left{
+    text-align:center;
+    align-items:center;
+}
+
+.left h1{
+    font-size:3.5rem;
+}
+
+.left p{
+    font-size:1.4rem;
+}
+
+.Software-btn{
+    width:45%;
+}
+
+.hero-btn{
+    justify-content:center;
+}
+
+.start-btn,
+.service-btn{
+    width:220px;
+}
+
+.right{
+    padding:0;
+}
+
+.main2{
+    flex-wrap:wrap;
+    gap:40px;
+}
+
+.main2 i{
+    font-size:3.5rem;
+}
+
+.card{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.feedback{
+    grid-template-columns:1fr;
+}
+
+.foot{
+    grid-template-columns:repeat(2,1fr);
+    gap:40px;
+}
+
+.main51{
+    text-align:center;
+}
+
+.main51 p{
+    margin:0;
+}
+
+.main51 button{
+    margin:0 auto;
+    width:250px;
+}
+}
